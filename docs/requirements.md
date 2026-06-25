@@ -180,6 +180,14 @@ Will our conversation be saved?
 对话不会逐字自动保存。每次完成一个有意义的学习单元后，在 `docs/lessons/`
 保存一份简短 Markdown 总结。
 
+课程文件使用三位数字作为顺序前缀，以便按学习顺序浏览。同一天完成多个课程时，
+也继续使用全局递增编号，例如：
+
+```text
+docs/lessons/001-omre-recall.md
+docs/lessons/002-model-request-basics.md
+```
+
 保存总结而不是完整聊天记录，因为：
 
 - 完整对话包含重复、试探和大量低价值上下文。
